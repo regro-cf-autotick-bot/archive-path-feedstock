@@ -1,5 +1,5 @@
 {% set name = "archive-path" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 555b0395d88087f946c3c7fbc7b82facaae24a707c042df223b36d7399d8df16
+  sha256: 0be8c302c66940b850278980f8b2cbfd4b7e3a10be4bd5df27217fbd3e7a5370
 
 build:
   number: 0
