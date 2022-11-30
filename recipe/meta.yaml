@@ -1,5 +1,5 @@
 {% set name = "archive-path" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0330b9686dc8f0869d42135f2221026890aafa8f5ca5892ea9f4f6134cf0b494
+  sha256: 75279003ea986a4f6748e299ba74d95e74ad75f1bd3ae02d35c125c749633a51
 
 build:
   number: 0
@@ -36,3 +36,4 @@ about:
 extra:
   recipe-maintainers:
     - chrisjsewell
+    - sphuber
